@@ -1,0 +1,32 @@
+#Changelog
+
+##[0.0.1]-2021-10-08
+
+###Added:
+the drawing of cars
+generation of each digit of the plate
+
+###Changed:
+put the drawings of lights in one function
+
+##[0.0.2]-2021-10-15
+
+###Added：
+the generation of all the plates needed
+decide whether a car runs the red light(or the orange light) and display its plate
+randomly distribute the number of cars to each lane
+animate the movement of cars
+the display of "Game over!" when a user loses the game
+the "probabiity" for each car
+
+###Changed:
+put the drawings of lights and cars in one function
+change the moving unit from 1 to 0.1 and the pausing time from 1 to 0.3 to make the scenerio smoother
+make the lights shine by letting it read numbers from a vector, instead of using an infinite loop, which makes it unable to enter the next step
+the cars and lights are drawn again every time unit, instead of adding a car to the front each time
+link the "probability" and the p to decide the motion of cars
+the way of generating random car numbers
+
+###Removed
+the infinite loop for lights
+the loop that adds a new car to the front every time
